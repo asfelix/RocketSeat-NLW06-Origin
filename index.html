@@ -10,12 +10,15 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Alexsandro Felix" />
 
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <!-- Styles -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- icons -->
-    <link rel="stylesheet" href="assets/fonts/style.css">
+    <link rel="stylesheet" href="assets/fonts/style.css" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -31,17 +34,18 @@
                 <ul class="grid">
                     <li><a class="title" href="#home">Início</a></li>
                     <li>
-                        <a class="title" href="#about">Sobre</a></li>
+                        <a class="title" href="#about">Sobre</a>
+                    </li>
                     <li><a class="title" href="#services">Serviços</a></li>
                     <li>
-                        <a class="title" href="#testimonials">Depoimentos</a></li>
+                        <a class="title" href="#testimonials">Depoimentos</a>
+                    </li>
                     <li><a class="title" href="#contact">Contato</a></li>
                 </ul>
             </div>
             <!-- menu -->
             <div class="toggle icon-menu"></div>
             <div class="toggle icon-close"></div>
-
         </nav>
     </header>
 
@@ -69,7 +73,7 @@
         <section class="section" id="about">
             <div class="container grid">
                 <div class="image">
-                    <img src="/img/hairdres.jpg" alt="3 cabelereiras sorrindo" srcset="">
+                    <img src="/img/hairdres.jpg" alt="3 cabelereiras sorrindo" srcset="" />
                 </div>
                 <div class="text">
                     <h2 class="title">Sobre nós</h2>
@@ -100,28 +104,131 @@
                     <div class="card grid">
                         <i class="icon-woman-hair"></i>
                         <h3 class="title">Terapia Capilar</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit tempora minus excepturi at consectetur laborum.
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit tempora minus excepturi at consectetur laborum.
                         </p>
                     </div>
                     <div class="card grid">
                         <i class="icon-trim"></i>
                         <h3 class="title">Cortes</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit tempora minus excepturi at consectetur laborum.
-
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit tempora minus excepturi at consectetur laborum.
+                        </p>
                     </div>
+
                     <div class="card grid">
                         <i class="icon-cosmetic"></i>
                         <h3 class="title">Tratamentos</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit tempora minus excepturi at consectetur laborum.
-
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit tempora minus excepturi at consectetur laborum.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <div class="divider-1"></div>
+
+        <!-- testimonials -->
+
+        <section class="section" id="testimonials">
+            <div class="container">
+                <header>
+                    <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+                </header>
+
+                <div class="testimonials swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo suscipit natus autem eius! Perspiciatis laboriosam doloribus unde veniam suscipit repellat asperiores atque explicabo eius facilis.
+                                    Enim autem impedit doloremque non!
+                                </p>
+                                <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/34.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />Wanessa Souza
+                  </cite>
+                            </blockquote>
+                        </div>
+
+                        <div class="testimonial swiper-slide">
+                            <div class="testimonial">
+                                <blockquote>
+                                    <p>
+                                        <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo suscipit natus autem eius! Perspiciatis laboriosam doloribus unde veniam suscipit repellat asperiores atque explicabo eius facilis.
+                                        Enim autem impedit doloremque non!
+                                    </p>
+                                    <cite>
+                      <img
+                        src="https://randomuser.me/api/portraits/women/16.jpg"
+                        alt="Foto de Franiele Venega"
+                        srcset=""
+                      />Franciele Venega
+                    </cite>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <div class="testimonial">
+                                <blockquote>
+                                    <p>
+                                        <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo suscipit natus autem eius! Perspiciatis laboriosam doloribus unde veniam suscipit repellat asperiores atque explicabo eius facilis.
+                                        Enim autem impedit doloremque non!
+                                    </p>
+                                    <cite>
+                      <img
+                        src="https://randomuser.me/api/portraits/men/86.jpg"
+                        alt="Foto de Alexsandro Felix"
+                      />Alexsandro Felix
+                    </cite>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- pagination slide -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider-2"></div>
+
+        <!-- contact -->
+        <section class="section" id="contact">
+            <div class="container grid">
+                <div class="text">
+                    <h2 class="title">Entre em contato com a gente</h2>
+                    <p>
+                        Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.
+                    </p>
+                    <a href="https://api.whatsapp.com/send?phone=+5545998049883&text=Olá, vi seu site e gostaria de solicitar um orçamento." class="button" target="_blank"><i class="icon-whatsapp"> Entrar em contato</i></a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> (45) 9 9804-9883</li>
+              <li>
+                <i class="icon-map-pin"></i>
+                Rua Doutor Sandino Erasmo de Amorim, 280
+              </li>
+              <li><i class="icon-mail"></i> felix@ffelix.eti.br</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer></footer>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- main.js -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
