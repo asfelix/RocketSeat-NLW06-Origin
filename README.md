@@ -1,3 +1,5 @@
+Aulas do projeto: https://app.rocketseat.com.br/node/mission-origin
+
 links:
 
 - https://www.notion.so/Mission-Origin-003847efca1f4d8f938beb5c4f6a3578
